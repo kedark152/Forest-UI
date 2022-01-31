@@ -1,0 +1,45 @@
+/* Common styling for Avatar */
+.avatar{
+    display: flex;
+    margin: 0rem var(--size-5);
+    border-radius: 50%;
+    border: 3px solid white;
+    flex-shrink: 0;
+}
+/* Border when hover on Avatar */
+.avatar:hover{
+    border: 3px solid var(--primary-hover);
+}
+/* Avatar Text */
+.avatar-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary);
+    color: white;
+    white-space: nowrap;
+}
+/* Avatar Extra-Small */
+.avatar-xsm{
+    width: var(--size-16);
+    height: var(--size-16);
+    font-size: var(--size-8);
+}
+/* Avatar Small */
+.avatar-sm{
+  width: var(--size-23);
+  height: var(--size-23);
+  font-size: var(--size-9);
+}
+/* Avatar Medium */
+.avatar-md{
+  width: var(--size-27);
+  height: var(--size-27);
+  font-size: var(--size-16);
+}
+/* Avatar Large */
+.avatar-lg{
+  width: var(--size-31);
+  height: var(--size-31);
+  font-size: var(--size-23);
+}

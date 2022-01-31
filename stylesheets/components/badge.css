@@ -1,0 +1,56 @@
+/* Badge styling for extra-small size */
+.avatar-xsm .badge-xsm{
+    position: relative;
+    font-size: 0.7rem;
+    bottom: -1.563rem;
+    left: -0.625rem;
+}
+/* Badge styling for small size */
+.avatar-sm .badge-sm{
+    position: relative;
+    font-size: 1rem;
+    bottom: -2rem;
+    left: -0.813rem;
+}
+/* Badge styling for medium size */
+.avatar-md .badge-md{
+    position: relative;
+    font-size: 1.25rem;
+    bottom: -3.75rem;
+    left: -1.25rem;
+}
+/* Badge styling for large size */
+.avatar-lg .badge-lg{
+    position: relative;
+    font-size: 1.5rem;
+    bottom: -5.313rem;
+    left: -1.875rem;
+}
+/* Counter Badge on Icons */
+.badge-count{
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 7px;
+    position: relative;
+    top: -1.25rem;
+    left: -0.875rem;
+}
+/* badge colors for showing status */
+.badge-green{
+    color: green;
+    /* Online */
+    
+}
+.badge-red{
+    color: red;
+    /* Busy */
+}
+.badge-yellow{
+    color: rgb(255, 217, 0);
+    /* Idle */
+}
+.badge-grey{
+    color: grey;
+    /* Idle */
+}
