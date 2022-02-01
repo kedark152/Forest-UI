@@ -1,0 +1,22 @@
+@import url(../stylesheets/components/avatar.css);
+@import url(../stylesheets/components/badge.css);
+@import url(../stylesheets/utilities/variables.css);
+
+
+/* Container Box in grey to display the components */
+.demo-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    align-items: baseline;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin: 1rem 2rem;
+}
+
+.img-round{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
