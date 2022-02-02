@@ -1,0 +1,50 @@
+/* Margin */
+.mg-xsm {
+    margin: 0.5rem;
+}
+
+.mg-sm {
+    margin: 1rem;
+}
+
+.mg-md {
+    margin: 1.5rem;
+}
+
+.mg-lg {
+    margin: 2rem;
+}
+
+.mg-xlg {
+    margin: 2.5rem;
+}
+
+.mg-xxlg {
+    margin: 4rem;
+}
+
+/* Padding */
+.pd-xsm {
+    padding: 0.5rem;
+}
+
+.pd-sm {
+    padding: 1rem;
+}
+
+.pd-md {
+    padding: 1.5rem;
+}
+
+.pd-lg {
+    padding: 2rem;
+}
+
+.pd-xlg {
+    padding: 2.5rem;
+}
+
+.pd-xxlg {
+    padding: 4rem;
+}
+
