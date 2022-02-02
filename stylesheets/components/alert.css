@@ -1,0 +1,46 @@
+
+.alert-box{
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 1rem 1.5rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    font-weight: var(--wgt-bold-semi);
+    font-size: 1.2rem;
+    align-items: center;
+    
+
+}
+.alert-primary{
+    background-color: #cfe2ff;
+    color: #08429e;
+}
+.alert-secondary{
+    background-color: var(--grey-lighter);
+    color: black;
+}
+.alert-link{
+    color: black;  
+}
+.alert-success{
+    background-color: #a7f3d0;
+    color: green;
+}
+.alert-warning{
+    background-color: #fef3c7;
+    color: saddlebrown;
+}
+.alert-danger{
+    background-color: #fee2e2;
+    color: brown;
+}
+.alert-box .material-icons{
+    margin-right: 0.5rem;
+  
+}
+.alert-dismissable .material-icons{
+    margin-left: 0.5rem;
+}
+.alert-dismissable .material-icons:hover{
+    cursor: pointer;
+}

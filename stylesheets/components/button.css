@@ -1,0 +1,46 @@
+.btn{
+    display: flex;
+    color: var(--primary);
+    margin: 1rem 0.5rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    align-items: center;
+}
+.btn-solid, .btn-solid-icon{
+    color: white;
+    background-color: var(--primary);
+}
+.btn-solid:hover, .btn-solid-icon:hover{
+    background-color: var(--primary-hover);
+}
+.btn-outline, .btn-outline-icon{
+   border: 1px solid var(--primary);
+}
+.btn-outline:hover, .btn-outline-icon:hover{
+    background-color: var(--primary);
+    color: white;
+}
+.btn-link{
+    color: black;
+}
+.btn-link:hover{
+    color: var(--primary);
+   font-size: 1.1rem;
+}
+.btn-icon .material-icons, .btn-float-action .material-icons{
+    cursor: pointer;
+}
+.btn-solid-icon .material-icons, .btn-outline-icon .material-icons{
+  margin-right: 0.3rem;
+  cursor: pointer;
+}
+.btn-float-action{
+    color: white;
+    background-color: var(--primary);
+    border-radius: 50%;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 1rem 0.5rem;
+   
+}
