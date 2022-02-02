@@ -1,22 +1,37 @@
+@import url(../stylesheets/base/reset.css);
+@import url(../stylesheets/base/typography.css);
+@import url(../stylesheets/base/spacing.css);
+@import url(../stylesheets/utilities/variables.css);
 @import url(../stylesheets/components/avatar.css);
 @import url(../stylesheets/components/badge.css);
-@import url(../stylesheets/utilities/variables.css);
+@import url(../stylesheets/components/alert.css);
+@import url(../stylesheets/components/button.css);
+
 
 
 /* Container Box in grey to display the components */
 .demo-container{
     display: flex;
     flex-wrap: wrap;
-    padding: 0.5rem;
-    align-items: baseline;
+   
     border: 2px solid grey;
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 1rem 2rem;
 }
-
+.align-baseline{
+    align-items: baseline;
+}
+.align-center{
+    align-items: center;
+}
 .img-round{
     object-fit: cover;
     height: 100%;
     width: 100%;
     border-radius: 50%;
 }
+.flex-column{
+    display: flex;
+    flex-direction: column; 
+    align-items: stretch;
+ }

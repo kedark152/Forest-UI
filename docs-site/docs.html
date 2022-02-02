@@ -11,13 +11,42 @@
     />
     <title>Docs</title>
   </head>
-  <body>
+  <body class="mg-sm">
     <h1>Documentation Page</h1>
+    <!-- Alerts -->
+    <h2>Alerts</h2>
+    <!-- Alert with text, link and icon. -->
+    <h3>Alert with text, link and icon.</h3>
+    <div class="demo-container flex-column">
+      <div class="alert-box alert-primary">This is a Primary alert</div>
+      <div class="alert-box alert-secondary">
+        This is a Secondary alert with an-
+        <a class="alert-link" href="#">an example link</a>
+      </div>
+      <div class="alert-box alert-success">
+        <i class="material-icons">check_circle</i> This is a Success alert
+      </div>
+      <div class="alert-box alert-warning">
+        <i class="material-icons">warning</i>This is a Warning alert
+      </div>
+      <div class="alert-box alert-danger">
+        <i class="material-icons">error</i>This is a Danger alert
+      </div>
+    </div>
+    <!-- Alert Dismiss. -->
+    <h3>Alert Dismiss.</h3>
+    <div class="demo-container flex-column pd-xsm">
+      <div class="alert-box alert-primary alert-dismissable">
+        This is a Primary alert
+        <i class="material-icons cancel-icon">cancel</i>
+      </div>
+    </div>
+    <hr />
     <!-- Avatars -->
     <h2>Avatar</h2>
     <!-- Avatar with Image -->
     <h3>Avatar with Image</h3>
-    <div class="demo-container">
+    <div class="demo-container align-baseline pd-xsm">
       <div class="avatar avatar-xsm">
         <img
           class="img-round"
@@ -49,7 +78,7 @@
     </div>
     <!-- Avatar with Text -->
     <h3>Avatar with Text</h3>
-    <div class="demo-container">
+    <div class="demo-container align-baseline pd-xsm">
       <div class="avatar avatar-text avatar-xsm">KD</div>
       <div class="avatar avatar-text avatar-sm">KD</div>
       <div class="avatar avatar-text avatar-md">KD</div>
@@ -60,7 +89,7 @@
     <h2>Badge</h2>
     <!-- Badge on Avatar -->
     <h3>Badge on Avatar</h3>
-    <div class="demo-container">
+    <div class="demo-container align-baseline pd-xsm">
       <div class="avatar avatar-xsm">
         <img
           class="img-round"
@@ -96,7 +125,7 @@
     </div>
     <!-- Badge on Icons -->
     <h3>Badge on Icons</h3>
-    <div class="demo-container">
+    <div class="demo-container pd-sm">
       <p>
         <i class="material-icons">home</i> <span class="badge-count">2</span>
       </p>
@@ -113,5 +142,44 @@
         <span class="badge-count">5</span>
       </p>
     </div>
+    <hr />
+    <!-- Buttons -->
+    <h2>Buttons</h2>
+    <h3>Primary & link Button</h3>
+    <div class="demo-container align-center pd-xsm">
+      <a href="#" class="btn btn-solid">Primary Solid</a>
+      <a href="#" class="btn btn-outline">Primary Outline</a>
+      <a href="#" class="btn-link">Link Button</a>
+    </div>
+    <h3>Icon Button</h3>
+    <div class="demo-container align-center pd-xsm">
+      <a href="#" class="btn btn-icon"
+        ><i class="material-icons">shopping_cart</i></a
+      >
+      <a href="#" class="btn btn-solid-icon"
+        ><i class="material-icons">home</i>Home</a
+      >
+      <a href="#" class="btn btn-outline-icon"
+        ><i class="material-icons">search</i>Search</a
+      >
+    </div>
+    <h3>Floating Action Button</h3>
+    <div class="demo-container align-center pd-xsm">
+      <a href="#" class="btn-float-action"><i class="material-icons">add</i></a>
+      <a href="#" class="btn-float-action"
+        ><i class="material-icons">edit</i></a
+      >
+      <a href="#" class="btn-float-action"
+        ><i class="material-icons">chat</i></a
+      >
+      <a href="#" class="btn-float-action"
+        ><i class="material-icons">star</i></a
+      >
+      <a href="#" class="btn-float-action"
+        ><i class="material-icons">photo_camera</i></a
+      >
+    </div>
+    <!-- Script -->
+    <script src="../stylesheets/components/components.js"></script>
   </body>
 </html>

@@ -1,0 +1,29 @@
+h1,
+.para-xxl {
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+h2,
+.para-xl {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+h3,
+.para-lg {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+h4,
+.para-md {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+h5,
+.para-sm {
+    font-size: 0.5rem;
+    line-height: 1rem;
+}
