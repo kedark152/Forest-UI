@@ -145,39 +145,242 @@
     <hr />
     <!-- Buttons -->
     <h2>Buttons</h2>
+    <!-- Primary & Link Buttons -->
     <h3>Primary & link Button</h3>
     <div class="demo-container align-center pd-xsm">
       <a href="#" class="btn btn-solid">Primary Solid</a>
       <a href="#" class="btn btn-outline">Primary Outline</a>
       <a href="#" class="btn-link">Link Button</a>
     </div>
+    <!-- Icon Button -->
     <h3>Icon Button</h3>
     <div class="demo-container align-center pd-xsm">
-      <a href="#" class="btn btn-icon"
-        ><i class="material-icons">shopping_cart</i></a
-      >
-      <a href="#" class="btn btn-solid-icon"
-        ><i class="material-icons">home</i>Home</a
-      >
-      <a href="#" class="btn btn-outline-icon"
-        ><i class="material-icons">search</i>Search</a
-      >
+      <a href="#" class="btn btn-icon">
+        <i class="material-icons">shopping_cart</i>
+      </a>
+      <a href="#" class="btn btn-solid-icon">
+        <i class="material-icons">home</i>Home
+      </a>
+      <a href="#" class="btn btn-outline-icon">
+        <i class="material-icons">search</i>Search
+      </a>
     </div>
+    <!-- Floating Action Button -->
     <h3>Floating Action Button</h3>
     <div class="demo-container align-center pd-xsm">
       <a href="#" class="btn-float-action"><i class="material-icons">add</i></a>
-      <a href="#" class="btn-float-action"
-        ><i class="material-icons">edit</i></a
-      >
-      <a href="#" class="btn-float-action"
-        ><i class="material-icons">chat</i></a
-      >
-      <a href="#" class="btn-float-action"
-        ><i class="material-icons">star</i></a
-      >
-      <a href="#" class="btn-float-action"
-        ><i class="material-icons">photo_camera</i></a
-      >
+      <a href="#" class="btn-float-action">
+        <i class="material-icons">edit</i>
+      </a>
+      <a href="#" class="btn-float-action">
+        <i class="material-icons">chat</i>
+      </a>
+      <a href="#" class="btn-float-action">
+        <i class="material-icons">star</i>
+      </a>
+      <a href="#" class="btn-float-action">
+        <i class="material-icons">photo_camera</i>
+      </a>
+    </div>
+    <hr />
+
+    <!-- Cards -->
+    <h2>Cards Component</h2>
+    <!-- Cards with badges -->
+    <h3>Cards with badges & dismiss</h3>
+    <div class="demo-container demo-cards pd-xsm">
+      <!-- Card-1 w/badge -->
+      <div class="card card-vertical">
+        <span class="card-badge-green">Best Seller</span>
+        <div class="card-img-box">
+          <a href="#">
+            <img
+              src="https://m.media-amazon.com/images/I/71iPA5LfB7L._AC_UL320_.jpg"
+              alt="Vermi Compost"
+              class="card-img"
+            />
+          </a>
+        </div>
+
+        <div class="card-title">
+          <h4>
+            TrustBasket Organic Vermicompost Fertilizer Manure for Plants - 5 KG
+          </h4>
+          <i class="material-icons">favorite_border</i>
+        </div>
+        <p class="card-ratings">3.5 <i class="material-icons">star</i></p>
+        <div class="card-pricing">
+          <p class="card-price">₹332</p>
+          <p class="card-price-cut">₹349</p>
+          <p class="card-percent-discount">5% off</p>
+        </div>
+        <a href="#" class="btn btn-solid-icon">
+          <i class="material-icons">shopping_cart</i>
+          Add to Cart
+        </a>
+      </div>
+
+      <!-- Card-2 w/badge & dismiss-->
+      <div class="card card-vertical">
+        <span class="card-badge-purple">NEW</span>
+        <span class="material-icons card-dismiss-btn">close</span>
+        <div class="card-img-box">
+          <a href="#">
+            <img
+              src="https://m.media-amazon.com/images/I/61fUoGkNdHL._AC_UL320_.jpg"
+              alt="Soil"
+              class="card-img"
+            />
+          </a>
+        </div>
+
+        <div class="card-title">
+          <h4>
+            TrustBasket Enriched organic Earth Magic Potting Soil Fertilizer for
+            Plants, 5 Kg
+          </h4>
+          <i class="material-icons">favorite_border</i>
+        </div>
+        <p class="card-ratings">3.5 <i class="material-icons">star</i></p>
+        <div class="card-pricing">
+          <p class="card-price">₹345</p>
+          <p class="card-price-cut">₹360</p>
+          <p class="card-percent-discount">6% off</p>
+        </div>
+        <a href="#" class="btn btn-solid-icon">
+          <i class="material-icons">shopping_cart</i>
+          Add to Cart
+        </a>
+      </div>
+    </div>
+
+    <!-- Cards w/ text overlay & Text Only Card -->
+    <h3>Cards with text overlay & Text Only Card</h3>
+    <div class="demo-container demo-cards pd-xsm">
+      <!-- Card-3 w/text overlay -->
+      <div class="card card-vertical">
+        <div class="card-overlay-container">
+          <div class="card-overlay-text">Out of Stock</div>
+        </div>
+
+        <div class="card-img-box">
+          <a href="#">
+            <img
+              src="https://m.media-amazon.com/images/I/71iPA5LfB7L._AC_UL320_.jpg"
+              alt="Vermi Compost"
+              class="card-img"
+            />
+          </a>
+        </div>
+
+        <div class="card-title">
+          <h4>
+            TrustBasket Organic Vermicompost Fertilizer Manure for Plants - 5 KG
+          </h4>
+          <i class="material-icons">favorite_border</i>
+        </div>
+        <p class="card-ratings">3.5 <i class="material-icons">star</i></p>
+        <div class="card-pricing">
+          <p class="card-price">₹332</p>
+          <p class="card-price-cut">₹349</p>
+          <p class="card-percent-discount">5% off</p>
+        </div>
+        <a href="#" class="btn btn-solid-icon">
+          <i class="material-icons">shopping_cart</i>
+          Add to Cart
+        </a>
+      </div>
+
+      <!-- Card-4 w/text only-->
+      <div class="card card-vertical card-text-only">
+        <div class="card-title">
+          <h4>Kraft Seeds Agro Peat/Coco Peat (1 KG)</h4>
+          <i class="material-icons">favorite_border</i>
+        </div>
+        <p class="card-ratings">3.5 <i class="material-icons">star</i></p>
+        <div class="card-pricing">
+          <p class="card-price">₹345</p>
+          <p class="card-price-cut">₹360</p>
+          <p class="card-percent-discount">6% off</p>
+        </div>
+        <a href="#" class="btn btn-solid-icon">
+          <i class="material-icons">shopping_cart</i>
+          Add to Cart
+        </a>
+      </div>
+    </div>
+
+    <!-- Horizontal Cards -->
+    <h3>Horizontal Cards</h3>
+    <div class="demo-container demo-cards pd-xsm">
+      <!-- Card-5 Horizontal Card -->
+
+      <div class="card card-horizontal">
+        <div class="card-img-box">
+          <a href="#">
+            <img
+              src="https://m.media-amazon.com/images/I/71iPA5LfB7L._AC_UL320_.jpg"
+              alt="Vermi Compost"
+              class="card-img"
+            />
+          </a>
+        </div>
+        <div class="card-horizontal-content">
+          <div class="card-title">
+            <h4>
+              TrustBasket Organic Vermicompost Fertilizer Manure for Plants - 5
+              KG
+            </h4>
+            <i class="material-icons">favorite_border</i>
+          </div>
+          <p class="card-ratings card-ratings-horizontal">
+            3.5 <i class="material-icons">star</i>
+          </p>
+          <div class="card-pricing">
+            <p class="card-price">₹332</p>
+            <p class="card-price-cut">₹349</p>
+            <p class="card-percent-discount">5% off</p>
+          </div>
+          <a href="#" class="btn btn-solid-icon">
+            <i class="material-icons">shopping_cart</i>
+            Add to Cart
+          </a>
+        </div>
+      </div>
+
+      <!-- Card-6 Horizontal Card-->
+      <div class="card card-horizontal">
+        <div class="card-img-box">
+          <a href="#">
+            <img
+              src="https://m.media-amazon.com/images/I/61fUoGkNdHL._AC_UL320_.jpg"
+              alt="Soil"
+              class="card-img"
+            />
+          </a>
+        </div>
+        <div class="card-horizontal-content">
+          <div class="card-title">
+            <h4>
+              TrustBasket Enriched organic Earth Magic Potting Soil Fertilizer
+              for Plants, 5 Kg
+            </h4>
+            <i class="material-icons">favorite_border</i>
+          </div>
+          <p class="card-ratings card-ratings-horizontal">
+            3.5 <i class="material-icons">star</i>
+          </p>
+          <div class="card-pricing">
+            <p class="card-price">₹345</p>
+            <p class="card-price-cut">₹360</p>
+            <p class="card-percent-discount">6% off</p>
+          </div>
+          <a href="#" class="btn btn-solid-icon">
+            <i class="material-icons">shopping_cart</i>
+            Add to Cart
+          </a>
+        </div>
+      </div>
     </div>
     <!-- Script -->
     <script src="../stylesheets/components/components.js"></script>
