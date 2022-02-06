@@ -13,7 +13,7 @@
   </head>
   <body class="mg-sm">
     <h1>Documentation Page</h1>
-    <!-- Alerts -->
+    <!-- Alerts component -->
     <h2>Alerts</h2>
     <!-- Alert with text, link and icon. -->
     <h3>Alert with text, link and icon.</h3>
@@ -42,7 +42,7 @@
       </div>
     </div>
     <hr />
-    <!-- Avatars -->
+    <!-- Avatars component -->
     <h2>Avatar</h2>
     <!-- Avatar with Image -->
     <h3>Avatar with Image</h3>
@@ -85,7 +85,7 @@
       <div class="avatar avatar-text avatar-lg">KD</div>
     </div>
     <hr />
-    <!-- Badge -->
+    <!-- Badge component -->
     <h2>Badge</h2>
     <!-- Badge on Avatar -->
     <h3>Badge on Avatar</h3>
@@ -143,7 +143,7 @@
       </p>
     </div>
     <hr />
-    <!-- Buttons -->
+    <!-- Buttons Component -->
     <h2>Buttons</h2>
     <!-- Primary & Link Buttons -->
     <h3>Primary & link Button</h3>
@@ -184,7 +184,7 @@
     </div>
     <hr />
 
-    <!-- Cards -->
+    <!-- Cards Component-->
     <h2>Cards Component</h2>
     <!-- Cards with badges -->
     <h3>Cards with badges & dismiss</h3>
@@ -381,6 +381,107 @@
           </a>
         </div>
       </div>
+    </div>
+    <hr />
+    <!-- Image Component -->
+    <h2>Images</h2>
+    <h3>Responsive Image</h3>
+    <div class="demo-container pd-sm">
+      <img
+        src="https://i.picsum.photos/id/400/400/400.jpg?hmac=ZpVLXxjX2uH3yZ4ClS0-ZMzDF7HCRSLmkw0w0iRjvKs"
+        alt="responsive-image"
+        class="img-responsive"
+      />
+    </div>
+    <h3>Round Image</h3>
+    <div class="demo-container align-baseline">
+      <img
+        src="../assets/Images/girl.jpg"
+        alt="round-image"
+        class="img-round img-lg pd-sm"
+      />
+      <img
+        src="../assets/Images/girl.jpg"
+        alt="round-image"
+        class="img-round img-xlg pd-sm"
+      />
+    </div>
+
+    <!-- Form Component -->
+    <h2>Form: Input Components with Error Validation</h2>
+    <div class="demo-container pd-xsm">
+      <form class="form-container">
+        <!-- Input-Box: Name -->
+        <div class="labels"><label for="form-name">Name</label></div>
+        <div class="form-field">
+          <input type="text" id="form-name" />
+          <!-- Result Div -->
+          <div class="result-name align-center">
+            <span class="material-icons"></span>
+            <div class="result-text"></div>
+          </div>
+        </div>
+
+        <!-- Drop-Down: City -->
+        <div class="labels"><label for="city-select">City</label></div>
+        <div class="form-field">
+          <select name="Your City" id="city-select">
+            <option value="Mumbai">Mumbai</option>
+            <option value="Pune">Pune</option>
+            <option value="Bangalore">Bangalore</option>
+          </select>
+        </div>
+
+        <!-- Radio-Button: Gender -->
+        <div class="labels"><label for="gender">Gender</label></div>
+        <div class="form-field">
+          <input type="radio" id="male" name="gender" checked />
+          <label for="male" class="gender">Male</label> <br />
+          <input type="radio" id="female" name="gender" />
+          <label for="female" class="gender">Female</label>
+        </div>
+
+        <!--Mobile Number -->
+        <div class="labels"><label for="mobile-no">Mobile Number</label></div>
+        <div class="form-field">
+          <input
+            type="text"
+            name="Mobile Number"
+            maxlength="10"
+            id="mobile-no"
+          />
+          <!-- Result Div -->
+          <div class="result-mobile align-center">
+            <span class="material-icons"></span>
+            <div class="result-text"></div>
+          </div>
+        </div>
+
+        <!--Email Address -->
+        <div class="labels"><label for="email-id">Email</label></div>
+        <div class="form-field">
+          <input type="email" name="Email Address" id="email-id" />
+          <!-- Result Div -->
+          <div class="result-email align-center">
+            <span class="material-icons"></span>
+            <div class="result-text"></div>
+          </div>
+        </div>
+
+        <!-- Terms & Conditions -->
+        <div class="form-field">
+          <input type="checkbox" id="terms" name="aggrement" />
+          <label for="aggrement" class="checkbox">I accept all terms*</label>
+          <!-- Result Div -->
+          <div class="result-check-box align-center">
+            <span class="material-icons"></span>
+            <div class="result-text"></div>
+          </div>
+        </div>
+
+        <!-- Submit button -->
+        <button class="btn btn-solid btn-submit" type="button">Submit</button>
+      </form>
     </div>
     <!-- Script -->
     <script src="../stylesheets/components/components.js"></script>
