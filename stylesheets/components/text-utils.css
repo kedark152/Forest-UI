@@ -1,5 +1,5 @@
 .grey-text{
-    color: grey;
+    color: var(--grey-dark);
 }
 
 .text-left{
