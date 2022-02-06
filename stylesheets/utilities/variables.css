@@ -27,5 +27,12 @@
     --wgt-bold: 700;
     --wgt-bold-dark: 900;
 
+    --size-xsm: 0.5rem;
+    --size-sm:  1rem;
+    --size-md:  1.5rem;
+    --size-lg:  2rem;
+    --size-xlg: 2.5rem;
+    --size-xxlg: 4rem;
+
    
 }
