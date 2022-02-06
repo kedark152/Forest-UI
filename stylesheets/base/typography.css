@@ -2,28 +2,34 @@ h1,
 .para-xxl {
     font-size: 3rem;
     line-height: 4rem;
+    font-weight: var(--wgt-bold-dark);
 }
 
 h2,
 .para-xl {
     font-size: 2rem;
     line-height: 2.5rem;
+    font-weight: var(--wgt-bold);
 }
 
 h3,
 .para-lg {
     font-size: 1.5rem;
     line-height: 2rem;
+    font-weight: var(--wgt-bold-semi);
 }
 
 h4,
 .para-md {
-    font-size: 1rem;
+    font-size: 1.25rem;
     line-height: 1.5rem;
+    font-weight: var(--wgt-bold-semi);
 }
 
 h5,
 .para-sm {
-    font-size: 0.5rem;
-    line-height: 1rem;
+    font-size: 1rem;
+    line-height: 0.75rem;
+    font-weight: var(--wgt-bold);
+    
 }
