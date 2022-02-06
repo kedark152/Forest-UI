@@ -1,0 +1,38 @@
+.form-container{
+   padding: 1rem;
+   margin: 0.5rem;
+   font-size: 1rem;
+   background-color: lightgreen;
+   box-shadow: 0 2px 8px;
+   position: relative;
+}
+
+.labels{
+   font-weight: var(--wgt-bold);
+   margin: 0.5rem 0;
+}
+
+.label-col:after{
+   content: " *";
+   color: #CF000F;
+}
+
+.form-field{
+  margin-bottom: 2rem;
+}
+
+input:focus{
+   outline: none;
+}
+
+.form-field input, .form-field select{
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+input[type=radio] {
+   width: 1rem;
+   height: 1rem;
+   margin: 0.3rem;
+ }
+ 
