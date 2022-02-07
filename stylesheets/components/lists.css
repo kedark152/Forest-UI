@@ -1,0 +1,23 @@
+.spaced-lists{
+    display: inline-flex;
+   gap: 1rem;
+}
+.spaced-lists li{
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+.stacked-lists{
+    display: flex;
+    flex-direction: column;   
+    flex-basis: 25rem;
+    
+    
+}
+.stacked-lists-child{
+    border: 1px solid var(--grey-dark);
+    margin-bottom: 0.2rem;
+    padding:1rem 0.75rem;
+    border-radius: 5px;
+}
+
