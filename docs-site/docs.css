@@ -16,6 +16,7 @@
 @import url(../stylesheets/components/input.css);
 @import url(../stylesheets/components/text-utils.css);
 @import url(../stylesheets/components/lists.css);
+@import url(../stylesheets//components/modal.css);
 
 
 
@@ -47,4 +48,5 @@
  .demo-cards{
      gap: 2rem;    /* Space between two cards */
 }
+
 
