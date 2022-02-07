@@ -1,0 +1,22 @@
+.demo-ratings{
+    display: inline-flex;
+    align-items: center;
+    padding: 0.2rem;
+    width: 18rem;
+    flex-wrap: nowrap;
+}
+
+.ratings .material-icons{
+    
+    cursor: pointer;
+    color: var(--grey-lighter);
+    margin: 0.2rem;
+    font-size: 1.75rem;
+    
+}
+
+.ratings-text{
+    font-size: 1.2rem;
+    font-weight: var(--wgt-bold);
+    margin-left: auto;
+}
