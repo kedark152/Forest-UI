@@ -1,15 +1,15 @@
 .demo-ratings{
     display: inline-flex;
     align-items: center;
-    padding: 0.2rem;
-    width: 18rem;
+    width: 19rem;
     flex-wrap: nowrap;
 }
 
 .ratings .material-icons{
     cursor: pointer;
     color: var(--grey-lighter);
-    margin: 0.2rem;
+    margin: 0.1rem;
+    padding: 0;
     font-size: 1.75rem;   
 }
 
