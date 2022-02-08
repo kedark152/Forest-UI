@@ -1,0 +1,20 @@
+.demo-ratings{
+    display: inline-flex;
+    align-items: center;
+    width: 19rem;
+    flex-wrap: nowrap;
+}
+
+.ratings .material-icons{
+    cursor: pointer;
+    color: var(--grey-lighter);
+    margin: 0.1rem;
+    padding: 0;
+    font-size: 1.75rem;   
+}
+
+.ratings-text{
+    font-size: 1.2rem;
+    font-weight: var(--wgt-bold);
+    margin-left: auto;
+}

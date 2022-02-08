@@ -69,5 +69,33 @@ btnCloseModal.addEventListener("click",()=>{
     modalBackground.classList.remove("open-modal");
 });
 
-
-
+//Ratings component
+const stars = document.querySelectorAll(".ratings .material-icons");
+const ratingsText = document.querySelector(".ratings-text");
+const colorStars = stars;
+stars.forEach(star =>{
+    star.addEventListener("click",()=>{
+        let starId = star.id;             //same as star element id in html
+        let starTitle = star.title;       //same as star element title in html
+        getRatingsText(starId,starTitle);  
+        colorStars.forEach(colorStar=>{
+            colorStar.style.color="grey";  //initially makes all stars grey
+        }) 
+        for(let i=0; i<=starId-1;i++){    //for-loop to color all stars gold till clicked star
+          colorStars[i].style.color="gold";   
+        }
+    }) 
+})
+   
+function getRatingsText(starId,starTitle){  //displays ratings result text
+    ratingsText.innerText=`${starTitle}`;
+    if(starId<3){
+        ratingsText.style.color="red";      //Very-bad or bad
+    }
+    else if(starId==3){
+        ratingsText.style.color="orange";   //good
+    }
+    else{
+        ratingsText.style.color="green";   //very-good & excellent
+    }
+}
