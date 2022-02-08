@@ -7,12 +7,10 @@
 }
 
 .ratings .material-icons{
-    
     cursor: pointer;
     color: var(--grey-lighter);
     margin: 0.2rem;
-    font-size: 1.75rem;
-    
+    font-size: 1.75rem;   
 }
 
 .ratings-text{
