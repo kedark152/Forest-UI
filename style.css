@@ -1,0 +1,72 @@
+/* Importing Base Classes */
+@import url(../stylesheets/base/reset.css);
+@import url(../stylesheets/base/typography.css);
+@import url(../stylesheets/base/spacing.css);
+@import url(../stylesheets/layout/flex.css);
+
+/* Importing Utils Classes */
+@import url(../stylesheets/utilities/variables.css);
+
+/* Importing some Components */
+@import url(../stylesheets/components/button.css);
+
+/* Importing font family */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+html{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Acme', sans-serif;
+}
+
+nav a{
+    text-decoration: none;
+}
+nav a:visited, nav a:hover,nav a:focus {
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: var(--white);
+    /* border: 1px solid black; */
+    padding: 1rem 0.75rem;
+}
+.nav-brand a{
+    /* font-size: 2rem; */
+    font-weight: var(--wgt-bold-dark);
+    color: var(--primary);
+}
+.nav-pills{
+    display: flex;
+    margin-left: auto;
+    /* border: 1px solid black; */
+    flex: 0 1 12rem;
+    justify-content: space-around;
+    
+}
+.nav-pills a{
+    color: var(--primary);
+}
+
+header {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+header .hero-img{
+    max-width: 30%;
+}
+
+.section-1{
+  background-color: var(--primary);
+  color: white;
+}
+
+.btn-started, .btn-docs{
+    background-color: white;
+}
+
+.btn-1, .btn-2{
+    border: 1px solid white;
+}
