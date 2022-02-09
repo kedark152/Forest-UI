@@ -1,7 +1,7 @@
 :root{
     --primary: #003d2b;
     --primary-hover: #00704F;
-    --primary-transparent:#62a5923b;
+    --primary-transparent:#c5f0e583;
     --secondary:#3D0012;
     --secondary-hover:#700021;
 
@@ -22,6 +22,7 @@
     --radius-lg: 15px;
     --radius-rounded: 999px;
 
+    --wgt-lighter: 200;
     --wgt-light: 300;
     --wgt-regular: 400;
     --wgt-bold-semi: 600;
