@@ -4,11 +4,68 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Forest-UI - CSS Library to build faster websites</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <title>Forest-UI - CSS Library to build faster websites</title>
   </head>
   <body>
-    <h1>Forest-UI Landing Page</h1>
-    <a href="../docs-site/docs.html">Docs</a>
+    <!-- <h1>Forest-UI Landing Page</h1> -->
+    <!-- main nav -->
+    <nav>
+      <div class="nav-brand fs-md"><a href="#">Forest-UI</a></div>
+      <ul class="nav-pills fs-sm-plus fw-bold">
+        <li><a href="#">Home</a></li>
+        <li><a href="../docs-site/docs.html">Docs</a></li>
+        <li>
+          <a href="https://github.com/kedark152/Forest-UI" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <header class="pd-xsm">
+      <img class="hero-img" src="../assets/Images/hero.svg" alt="hero-image" />
+    </header>
+    <section class="section-1 flex-column-center pd-md">
+      <h1 class="title mg-bottom-xsm lt-sp-3">
+        Build Fast & Responsive Websites
+      </h1>
+      <h2 class="mg-bottom-sm fw-light">
+        Quickly Design Websites using responsive, customizable & re-usable
+        components
+      </h2>
+      <q class="mg-bottom-xsm fs-sm lt-sp-1 fs-italic fw-lighter">
+        “Forest is a dream where you may find yourself and dream is a forest
+        where you may lose yourself!” ~ M. M. Ildan
+      </q>
+      <div class="sec1-buttons align-center">
+        <a href="#get-started" class="btn btn-outline btn-started">
+          Get Started
+        </a>
+        <a href="../docs-site/docs.html" class="btn btn-outline btn-docs">
+          Docs
+        </a>
+      </div>
+    </section>
+    <section class="section-2 pd-md flex">
+      <div class="sec2-text">
+        <h1 id="get-started">Get Started</h1>
+        <p class="para-md">
+          Copy and paste the code in the head tag of your html document. So that
+          you can style your components by just adding class names to your html
+          elements.
+        </p>
+      </div>
+      <div class="sect2-code"></div>
+    </section>
   </body>
 </html>
