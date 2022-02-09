@@ -33,3 +33,63 @@ h5,
     font-weight: var(--wgt-bold);
     
 }
+
+/* Font-weight */
+
+.fw-lighter{
+    font-weight: var(--wgt-lighter);
+}
+
+.fw-light{
+    font-weight: var(--wgt-light);
+}
+.fw-regular{
+    font-weight: var(--wgt-regular);
+}
+
+.fw-semi-bold{
+   font-weight: var(--wgt-bold-semi);
+}
+.fw-bold{
+   font-weight: var(--wgt-bold);
+}
+
+.fw-dark-bold{
+    font-weight: var(--wgt-bold-dark);
+}
+
+/* Font Size */
+.fs-xsm{
+    font-size: 0.5rem;
+    line-height: 1rem;
+}
+.fs-sm{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.fs-sm-plus{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.fs-md{
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+.fs-md-plus{
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+.fs-lg{
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+/* Font Style */
+
+.fs-italic{
+  font-style: italic;
+}
+.fs-underline{
+  font-style: underline;
+}
+
