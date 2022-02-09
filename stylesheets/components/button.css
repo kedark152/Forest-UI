@@ -8,7 +8,7 @@
     align-items: center;
 }
 .btn-solid, .btn-solid-icon{
-    color: white;
+    color: var(--white);
     background-color: var(--primary);
 }
 .btn-solid:hover, .btn-solid-icon:hover{
