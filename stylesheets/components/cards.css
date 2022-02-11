@@ -6,6 +6,7 @@
     padding: 1rem;
     border-radius: 0.375rem;
     position: relative;
+    background-color: var(--white);
 }
 
 .card:hover{
@@ -76,6 +77,7 @@
   gap: 0.5rem;
   font-weight: var(--wgt-bold);
   font-size: 1.2rem;
+  flex-wrap: wrap;
   
 }
 
@@ -137,23 +139,27 @@
 .card-horizontal{
     display: flex;
     align-items: flex-start;
-    padding: 0.5rem;
+    padding: 0.2rem;
     border-radius: 0.375rem;
     position: relative;
+    background-color: var(--white);
  
 }
 
 .card-horizontal .card-img-box{
-    background-color: white;
+    background-color: var(--white);
     height: 14rem;
-    width: 10rem;
+    max-width: 10rem;
+    min-width: 5rem;
+    
 }
 
 .card-horizontal-content{
     display: flex;
     flex-direction: column;
     margin-left: 0.5rem;
-    width: 13rem;
+    max-width: 12rem;
+    min-width: 5rem;
 }
 
 .card-ratings-horizontal{
@@ -166,7 +172,9 @@
 }
 
 .card-horizontal .btn{
-    margin: 0.5rem 0;
+    margin: 0.75rem 0;
     justify-content: center;
+    width: 100%;
+    
    
 }
