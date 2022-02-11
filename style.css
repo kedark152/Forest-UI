@@ -15,16 +15,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
 html{
-    font-family: 'Lato', sans-serif;
     font-family: 'Acme', sans-serif;
 }
-
+/* Nav bar CSS */
 nav a{
     text-decoration: none;
 }
-nav a:visited, nav a:hover,nav a:focus {
-    text-decoration: none;
-}
+
 nav{
     display: flex;
     align-items: center;
@@ -45,15 +42,15 @@ nav{
 .nav-pills a{
     color: var(--primary);
 }
-
+/* Header CSS */
 header {
  display: flex;
  justify-content: center;
  background-color: var(--primary-transparent);
 }
 header .hero-img{
-    min-width: 19rem;
-    max-width: 25rem;
+    min-width: 13rem;
+    max-width: 20rem;
     height:auto;
     object-fit: cover;
 }
