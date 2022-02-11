@@ -29,7 +29,7 @@ h4,
 h5,
 .para-sm {
     font-size: 1rem;
-    line-height: 0.75rem;
+    line-height: 1rem;
     font-weight: var(--wgt-bold);
     
 }
