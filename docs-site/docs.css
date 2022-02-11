@@ -1,38 +1,189 @@
 /* Importing Base Classes */
-@import url(../stylesheets/base/reset.css);
+/* @import url(../stylesheets/base/reset.css);
 @import url(../stylesheets/base/typography.css);
-@import url(../stylesheets/base/spacing.css);
+@import url(../stylesheets/base/spacing.css); */
+/* Importing all the re-usable classes and components */
+@import url(../stylesheets/main.css);
 
-/* Importing Utils Classes */
-@import url(../stylesheets/utilities/variables.css);
+/* Importing Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
-/* Importing Components Classes */
-@import url(../stylesheets/components/avatar.css);
-@import url(../stylesheets/components/badge.css);
-@import url(../stylesheets/components/alert.css);
-@import url(../stylesheets/components/button.css);
-@import url(../stylesheets/components/cards.css);
-@import url(../stylesheets/components/image.css);
-@import url(../stylesheets/components/input.css);
-@import url(../stylesheets/components/text-utils.css);
-@import url(../stylesheets/components/lists.css);
-@import url(../stylesheets/components/modal.css);
-@import url(../stylesheets/components/ratings.css);
-@import url(../stylesheets/layout/flex.css);
+html{
+    font-family: 'Lato', sans-serif;
+   }
 
+/* Nav bar CSS */
+nav a{
+    text-decoration: none;
+}
 
+nav{
+    display: flex;
+    align-items: center;
+    background-color: var(--white);
+    padding: 1rem 0.75rem;
+    border-bottom: 2px solid var(--primary) ;
+    font-family: 'Acme', sans-serif;
+}
 
+.nav-brand a{
+    font-weight: var(--wgt-bold-dark);
+    color: var(--primary);
+}
+.nav-pills{
+    display: flex;
+    margin-left: auto;
+    flex: 0 1 12rem;
+    justify-content: space-around;
+    
+}
+.nav-pills a{
+    color: var(--primary);
+}
 /* Container Box in grey to display the components */
 .demo-container{
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid grey;
+    border: 2px solid var(--success);
     border-radius: 5px;
     margin: 1rem 2rem;
+    background-color: var(--lightest-green);
+    
 }
 
  .demo-cards{
      gap: 2rem;    /* Space between two cards */
 }
 
+.divider{
+   
+        border: 0;
+        height: 1px;
+        background-color: var(--secondary);
+        margin: 3rem 1rem;
 
+}
+.demo-code {
+    overflow: hidden;
+}
+
+/* Aside Bar */
+.docs-sidebar{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 12rem;
+    padding: 0.5rem;
+    position: sticky;
+    top: 0;
+    border-right: 2px solid var(--primary);
+    height: 100vh;
+    background-color: var(--primary);
+    color: var(--white);
+    z-index: 3;
+    overflow-y: auto;
+}
+
+
+.docs-sidebar a{
+    text-decoration: none;
+    color: var(--white);
+}
+.docs-sidebar li{
+    margin: 0.5rem;
+    font-size: 1.2rem;   
+    padding: 0.5rem 0.75rem;
+    border-radius: 2px;
+}
+
+.docs-sidebar li:hover{
+ background-color: var(--primary-hover);
+}
+
+.docs-components{
+    padding-left: 14.3rem;
+    position: relative;
+    top: -36.5rem;
+    width: 100%;
+}
+
+.docs-menu-bar{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#more-icon{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.btn-top-arrow{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+
+@media screen and (max-width: 800px){
+    .docs-sidebar{
+        display: none;
+        flex-direction: column;
+        width: 100vw;
+        align-items:flex-start;
+        position: static;
+       
+    }
+    .docs-menu-bar{
+        display: flex;
+    }
+    .docs-components{
+        padding-left: 0.625rem;
+        position:static;
+        width: 100vw;  
+    }
+    /* Card Horizontal */
+   .card-horizontal{
+       width: 100%;
+       /* font-size: 1rem; */
+   }
+   .card-horizontal .btn{
+    margin-top: 0.5rem;
+    justify-content: flex-start;
+    width: 7rem;
+   }
+   
+}
+
+@media screen and (max-width: 350px){
+.form-container{
+    width: 100%;
+ }
+ .form-field input, .form-field select{
+    padding: 0.2rem;
+    font-size: 0.5rem;
+
+}
+}
+
+footer{
+    background-color: rgb(11, 122, 76);
+    color: var(--white);
+    /* border-top: 2px solid var(--secondary); */
+}
+
+.footer-links a{
+    color: var(--white);
+    
+}
+
+.footer-links i{
+    cursor: pointer;
+}
