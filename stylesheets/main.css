@@ -22,3 +22,10 @@
 @import url(../stylesheets/components/modal.css);
 @import url(../stylesheets/components/ratings.css);
 
+/* Importing Icons */
+/* Google-Icons link */
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+/* Font Awesome Link */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+
+
