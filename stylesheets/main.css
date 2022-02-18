@@ -21,6 +21,12 @@
 @import url(../stylesheets/components/lists.css);
 @import url(../stylesheets/components/modal.css);
 @import url(../stylesheets/components/ratings.css);
+@import url(./components/snackbar.css);
+
+/* Importing Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 /* Importing Icons */
 /* Google-Icons link */
