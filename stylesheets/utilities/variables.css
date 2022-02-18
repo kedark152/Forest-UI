@@ -17,11 +17,20 @@
     --grey-lightest:#e4e4e4;
     --grey-lighter:#c5c5c5;
     --grey-dark:#727272;
+    --darkslate-grey: #333333;
 
+    --snackbar-retry-bg: #0080003a;
+    --snackbar-retry:  #98c298;
+    --snackbar-retry-hover-bg: #0080008c;
+ 
     --radius-sm: 5px;
     --radius-md: 10px;
     --radius-lg: 15px;
     --radius-rounded: 999px;
+  
+    --lato-font:'Lato', sans-serif;
+    --acme-font: 'Acme', sans-serif;
+    --roboto-font: 'Roboto', sans-serif;
 
     --wgt-lighter: 200;
     --wgt-light: 300;
@@ -36,6 +45,8 @@
     --size-lg:  2rem;
     --size-xlg: 2.5rem;
     --size-xxlg: 4rem;
+
+    --box-shadow-simple: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
    
 }
