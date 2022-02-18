@@ -5,16 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="docs.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-      crossorigin="anonymous"
-    />
     <title>Docs - Forest-UI</title>
   </head>
   <body>
@@ -51,6 +41,7 @@
           <li><a href="#lists" class="fw-bold">Lists</a></li>
           <li><a href="#modals" class="fw-bold">Modal</a></li>
           <li><a href="#ratings-star" class="fw-bold">Ratings</a></li>
+          <li><a href="#snackbar" class="fw-bold">Snackbar</a></li>
           <li><a href="#text-utils" class="fw-bold">Text Utilities</a></li>
         </ul>
       </aside>
@@ -1203,6 +1194,58 @@
           >
           </iframe>
         </div>
+        <!-- Snackbar Component -->
+        <h2 id="snackbar">Snackbar Component</h2>
+        <p class="mg-sm para-sm">
+          Snackbars provide brief messages about app processes at the bottom of
+          the screen.
+        </p>
+        <h3>Snackbar Baseline & Snackbar Leading</h3>
+        <div class="demo-container pd-sm">
+          <!-- Snackbar Baseline -->
+          <div class="snackbar snackbar-baseline-demo mg-right-sm">
+            <div class="text-msg">Can't send photo. Retry in 5 seconds.</div>
+            <div class="actions">
+              <button class="btn-retry">RETRY</button>
+              <i class="material-icons btn-cancel">close</i>
+            </div>
+          </div>
+
+          <!-- Snackbar Leading -->
+          <div class="snackbar snackbar-leading-demo">
+            <div class="text-msg">Your photo has been archived.</div>
+            <div class="actions">
+              <button class="btn-retry">UNDO</button>
+              <i class="material-icons btn-cancel">close</i>
+            </div>
+          </div>
+        </div>
+        <!-- Snackbar Demo -->
+        <h3>Click below buttons to see Snackbar Demo</h3>
+        <div class="demo-container flex pd-xsm">
+          <button class="btn-snackbar btn-leading">LEADING</button>
+          <button class="btn-snackbar btn-baseline">BASELINE</button>
+        </div>
+
+        <!-- Snackbar Live Demo Components -->
+        <!-- Snackbar Baseline -->
+        <div class="snackbar snackbar-baseline">
+          <div class="text-msg">Can't send photo. Retry in 5 seconds.</div>
+          <div class="actions">
+            <button class="btn-retry">RETRY</button>
+            <i class="material-icons btn-cancel">close</i>
+          </div>
+        </div>
+
+        <!-- Snackbar Leading -->
+        <div class="snackbar snackbar-leading">
+          <div class="text-msg">Your photo has been archived.</div>
+          <div class="actions">
+            <button class="btn-retry">UNDO</button>
+            <i class="material-icons btn-cancel">close</i>
+          </div>
+        </div>
+        <!-- Snackbar Section Ends -->
         <!-- Text Utilities -->
         <h2 id="text-utils">Text Utilities</h2>
         <p class="mg-sm para-sm">Below are the text utilities styles</p>
