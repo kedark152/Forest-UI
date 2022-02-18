@@ -1,21 +1,10 @@
-/* Importing Base Classes */
-@import url(../stylesheets/base/reset.css);
-@import url(../stylesheets/base/typography.css);
-@import url(../stylesheets/base/spacing.css);
-@import url(../stylesheets/layout/flex.css);
+/* Importing Main Class */
 
-/* Importing Utils Classes */
-@import url(../stylesheets/utilities/variables.css);
+@import url(../stylesheets/main.css);
 
-/* Importing some Components */
-@import url(../stylesheets/components/button.css);
-
-/* Importing font family */
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
 html{
-    font-family: 'Acme', sans-serif;
+    font-family: var(--acme-font);
 }
 /* Nav bar CSS */
 nav a{
