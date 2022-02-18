@@ -68,12 +68,10 @@
 
 
 /* Snackbar Static Demo to show on Docs Site */
-.snackbar-baseline-demo{
+.snackbar-baseline-demo, .snackbar-leading-demo{
     position: relative;
 }
-.snackbar-leading-demo{
-    position: relative;
-}
+
 .btn-cancel-demo{
     color: var(--white);
     border-radius: 50%;
