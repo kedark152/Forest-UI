@@ -1,0 +1,96 @@
+.btn-snackbar{
+    color: var(--white);
+    background-color: var(--primary-hover);
+    padding: 5px 8px;
+    border-radius: 4px;
+    margin: 2rem 1rem;
+}
+
+.btn-snackbar:active{
+    background-color: var(--success);
+}
+
+.snackbar{
+    font-family: var(--roboto-font);
+    background-color: var(--darkslate-grey);
+    color: var(--white);
+    display: flex;
+    max-width: max-content;
+    font-size: 0.8rem;
+    padding: 10px 8px;
+    box-shadow: var(--box-shadow-simple);
+    border-radius: 5px;
+    align-items: center;
+    position: fixed;
+}
+
+.snackbar-baseline{
+    display: none;
+    bottom: 10%;
+    right: 35%;
+}
+
+.actions{
+   display: flex;
+   flex-shrink: 0;
+}
+
+.btn-retry{
+    background-color: var(--snackbar-retry-bg);
+    color: var(--snackbar-retry);
+    padding: 5px 8px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+}
+
+.btn-retry:hover{
+   color: var(--white) ;
+   background-color: var(--snackbar-retry-hover-bg);
+}
+
+.btn-cancel{
+    color: var(--white);
+    border-radius: 50%;
+    padding: 1px 2px;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.btn-cancel:hover{
+    background-color: var(--grey-lighter);
+}
+
+.btn-cancel:active{
+  background-color: var(--grey-lightest);
+}
+
+/* Snackbar Leading */
+.snackbar-leading{
+    display: none;
+    bottom: 10%;
+    left: 15%;
+}
+
+
+/* Snackbar Static Demo to show on Docs Site */
+.snackbar-baseline-demo, .snackbar-leading-demo{
+    position: relative;
+}
+
+.btn-cancel-demo{
+    color: var(--white);
+    border-radius: 50%;
+    padding: 1px 2px;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.btn-cancel-demo:hover{
+    background-color: var(--grey-lighter);
+}
+
+.btn-cancel-demo:active{
+  background-color: var(--grey-lightest);
+}
+

@@ -99,3 +99,26 @@ function getRatingsText(starId,starTitle){  //displays ratings result text
         ratingsText.style.color="green";   //very-good & excellent
     }
 }
+
+//Snackbar component
+const baselineBtn = document.querySelector(".btn-baseline");
+const leadingBtn = document.querySelector(".btn-leading");
+const baseline = document.querySelector(".snackbar-baseline");
+const leading = document.querySelector(".snackbar-leading");
+const buttonCancel = document.querySelectorAll(".btn-cancel");
+
+baselineBtn.addEventListener("click",()=>{
+    baseline.style.display="flex";
+           setTimeout(()=>{  baseline.style.display="none";},5000);
+           buttonCancel[0].addEventListener("click",()=>{
+            baseline.style.display="none";
+           })
+})
+leadingBtn.addEventListener("click",()=>{
+    leading.style.display="flex";
+           setTimeout(()=>{  leading.style.display="none";},5000);
+           buttonCancel[1].addEventListener("click",()=>{
+            leading.style.display="none";
+           })
+})
+
