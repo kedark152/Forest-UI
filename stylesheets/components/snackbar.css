@@ -4,11 +4,12 @@
     padding: 5px 8px;
     border-radius: 4px;
     margin: 2rem 1rem;
-   
 }
+
 .btn-snackbar:active{
     background-color: var(--success);
 }
+
 .snackbar{
     font-family: var(--roboto-font);
     background-color: var(--darkslate-grey);
@@ -22,6 +23,7 @@
     align-items: center;
     position: fixed;
 }
+
 .snackbar-baseline{
     display: none;
     bottom: 10%;
@@ -41,10 +43,12 @@
     letter-spacing: 1px;
     margin-left: 10px;
 }
+
 .btn-retry:hover{
    color: var(--white) ;
    background-color: var(--snackbar-retry-hover-bg);
 }
+
 .btn-cancel{
     color: var(--white);
     border-radius: 50%;
@@ -56,9 +60,11 @@
 .btn-cancel:hover{
     background-color: var(--grey-lighter);
 }
+
 .btn-cancel:active{
   background-color: var(--grey-lightest);
 }
+
 /* Snackbar Leading */
 .snackbar-leading{
     display: none;
@@ -79,9 +85,11 @@
     margin-left: 1rem;
     cursor: pointer;
 }
+
 .btn-cancel-demo:hover{
     background-color: var(--grey-lighter);
 }
+
 .btn-cancel-demo:active{
   background-color: var(--grey-lightest);
 }
