@@ -28,6 +28,7 @@
     display: none;
     bottom: 10%;
     right: 35%;
+    z-index: 3;
 }
 
 .actions{
@@ -68,8 +69,9 @@
 /* Snackbar Leading */
 .snackbar-leading{
     display: none;
-    bottom: 10%;
-    left: 15%;
+    bottom: 12%;
+    left: 5%;
+    z-index: 3;
 }
 
 
@@ -93,4 +95,5 @@
 .btn-cancel-demo:active{
   background-color: var(--grey-lightest);
 }
+
 
