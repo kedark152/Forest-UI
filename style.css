@@ -3,8 +3,8 @@
 @import url(../stylesheets/main.css);
 
 
-html{
-    font-family: var(--acme-font);
+body{
+    font-family: var(--lato-font);
 }
 /* Nav bar CSS */
 nav a{
@@ -16,6 +16,8 @@ nav{
     align-items: center;
     background-color: var(--white);
     padding: 1rem 0.75rem;
+    font-family: var(--acme-font);
+    border-bottom: 2px solid var(--primary);
 }
 .nav-brand a{
     font-weight: var(--wgt-bold-dark);
@@ -47,21 +49,28 @@ header .hero-img{
 .section-1{
   background-color: var(--primary);
   color: var(--white);
+  justify-content: center;
 }
 
-.btn-started, .btn-docs{
+.sec1-buttons .btn{
     background-color: var(--white);
+    color: var(--primary);
+    font-size: 1.4rem;
+    padding: 1rem 1.5rem;
 }
 
 .section-2{
     color: var(--primary);
     background-color: var(--primary-transparent);
     flex-wrap: wrap;
+    align-items: center;
+    gap: var(--size-md);
 }
 
 footer{
     background-color: var(--primary);
     color: var(--white);
+    font-family: var(--acme-font);
 }
 
 .footer-links a{
@@ -77,6 +86,7 @@ footer{
 }
 .gs-code{
     flex: 1 1 30rem;
+   
 }
 
 .install-code{
