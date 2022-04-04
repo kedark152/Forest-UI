@@ -1,9 +1,9 @@
-.nav-class a{
+.nav-class a {
     text-decoration: none;
     color: var(--primary);
 }
 
-.nav-class{
+.nav-class {
     flex-wrap: wrap;
     height: 5.5rem;
     justify-content: space-around;
@@ -13,29 +13,30 @@
     box-shadow: var(--box-shadow-simple);
 }
 
-.nav-brand{
+.nav-brand {
     margin-left: 1rem;
 }
 
-#search-bar, .search-field{
+#search-bar,
+.search-field {
     border-radius: 5px;
     border: 2px solid var(--primary);
 }
 
-.search-field{
-   position: relative;
-   width: 300px;
-   background-color: var(--white);
-   margin-left: 2rem;
+.search-field {
+    position: relative;
+    width: 300px;
+    background-color: var(--white);
+    margin-left: 2rem;
 }
 
-#search-icon{
+#search-icon {
     position: absolute;
     top: 20%;
-    right: 2%; 
+    right: 2%;
 }
 
-#search-bar{
+#search-bar {
     border: none;
     height: 2.5rem;
     width: 85%;
@@ -44,19 +45,20 @@
 }
 
 
-.navbar-pills i{
+.navbar-pills i {
     cursor: pointer;
     font-size: 2rem;
     display: flex;
-   margin: 0.5rem 0.5rem 0.2rem 0.5rem;
+    margin: 0.5rem 0.5rem 0.2rem 0.5rem;
     justify-content: space-between;
 }
-.navbar-pills{
+
+.navbar-pills {
     margin-left: 10px;
 }
 
-@media only screen and (max-width: 800px){
-    .nav-class{
+@media only screen and (max-width: 800px) {
+    .nav-class {
         height: min-content;
     }
 }
