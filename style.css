@@ -17,7 +17,7 @@ nav{
     background-color: var(--white);
     padding: 1rem 0.75rem;
     font-family: var(--acme-font);
-    border-bottom: 2px solid var(--primary);
+    box-shadow: var(--box-shadow-primary);
 }
 .nav-brand a{
     font-weight: var(--wgt-bold-dark);
