@@ -39,6 +39,7 @@
           <li><a href="#input" class="fw-bold">Input</a></li>
           <li><a href="#lists" class="fw-bold">Lists</a></li>
           <li><a href="#modals" class="fw-bold">Modal</a></li>
+          <li><a href="#navigation" class="fw-bold">Navigation</a></li>
           <li><a href="#ratings-star" class="fw-bold">Ratings</a></li>
           <li><a href="#snackbar" class="fw-bold">Snackbar</a></li>
           <li><a href="#text-utils" class="fw-bold">Text Utilities</a></li>
@@ -1003,6 +1004,55 @@
           </iframe>
         </div>
         <hr />
+        <!-- Navigation Component -->
+        <h2 id="navigation">Navigation Component</h2>
+        <p class="mg-y-sm para-sm">
+          Navigation bar is used to navigate through the web apps or websites
+          and their pages.
+        </p>
+        <div class="demo-container pd-sm">
+          <nav class="nav-class">
+            <div class="nav-brand fs-md"><a href="#">MyShop</a></div>
+            <div class="search-field">
+              <i class="material-icons" id="search-icon">search</i>
+              <input
+                type="text"
+                name="search-bar"
+                id="search-bar"
+                placeholder="Search"
+              />
+            </div>
+
+            <ul class="navbar-pills align-center fw-bold">
+              <li class="mg-x-sm">
+                <a href="">
+                  <i class="material-icons mg-left-sm">account_circle</i>
+                  Profile</a
+                >
+              </li>
+              <li class="mg-x-sm">
+                <a href="">
+                  <i class="material-icons mg-left-sm">favorite_border</i>
+                  Wishlist
+                </a>
+              </li>
+              <li class="mg-x-sm">
+                <a href="">
+                  <i class="material-icons mg-left-sm" id="shop-cart">
+                    shopping_cart </i
+                  >My Cart
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="demo-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28140%2C230%2C195%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=320&ds=true&dsyoff=18px&dsblur=68px&wc=true&wa=false&pv=14px&ph=21px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=136%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522nav-class%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522nav-brand%2520fs-md%2522%253E%253Ca%2520href%253D%2522%2523%2522%253EMyShop%253C%252Fa%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522search-field%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2522%2520id%253D%2522search-icon%2522%253Esearch%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520name%253D%2522search-bar%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522search-bar%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Search%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cul%2520class%253D%2522navbar-pills%2520align-center%2520fw-bold%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522mg-x-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520mg-left-sm%2522%253Eaccount_circle%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Profile%253C%252Fa%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522mg-x-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520mg-left-sm%2522%253Efavorite_border%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Wishlist%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522mg-x-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520mg-left-sm%2522%2520id%253D%2522shop-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520shopping_cart%2520%253C%252Fi%250A%2520%2520%2520%2520%2520%2520%2520%2520%253EMy%2520Cart%250A%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fnav%253E%250A"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
         <!-- Snackbar Component -->
         <h2 id="snackbar">Snackbar Component</h2>
         <p class="mg-y-sm para-sm">

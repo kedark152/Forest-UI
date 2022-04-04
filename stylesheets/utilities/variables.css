@@ -47,6 +47,7 @@
     --size-xxlg: 4rem;
 
     --box-shadow-simple: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    --box-shadow-primary: var(--primary-hover) 0px 5px 15px;
 
    
 }
