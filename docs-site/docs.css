@@ -1,6 +1,7 @@
 /* Importing Main Class */
 
 @import url(../stylesheets/main.css);
+@import url(../stylesheets/layout/scrollbar.css);
 
 html{
     font-family: var(--lato-font);
