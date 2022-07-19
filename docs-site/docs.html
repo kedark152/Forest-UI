@@ -35,10 +35,12 @@
           <li><a href="#badge" class="fw-bold">Badge</a></li>
           <li><a href="#buttons" class="fw-bold">Button</a></li>
           <li><a href="#card" class="fw-bold">Card</a></li>
+          <li><a href="#grid" class="fw-bold">Grids</a></li>
           <li><a href="#images" class="fw-bold">Image</a></li>
           <li><a href="#input" class="fw-bold">Input</a></li>
           <li><a href="#lists" class="fw-bold">Lists</a></li>
           <li><a href="#modals" class="fw-bold">Modal</a></li>
+          <li><a href="#navigation" class="fw-bold">Navigation</a></li>
           <li><a href="#ratings-star" class="fw-bold">Ratings</a></li>
           <li><a href="#snackbar" class="fw-bold">Snackbar</a></li>
           <li><a href="#text-utils" class="fw-bold">Text Utilities</a></li>
@@ -998,6 +1000,107 @@
         <div class="demo-code">
           <iframe
             src="https://carbon.now.sh/embed?bg=rgba%28140%2C230%2C195%2C1%29&t=cobalt&wt=none&l=javascript&width=350&ds=true&dsyoff=18px&dsblur=65px&wc=true&wa=false&pv=19px&ph=21px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=136%25&si=false&es=2x&wm=false&code=%252F%252FRatings%2520component%250Aconst%2520stars%2520%253D%2520document.querySelectorAll%28%2522.ratings%2520.material-icons%2522%29%253B%250Aconst%2520ratingsText%2520%253D%2520document.querySelector%28%2522.ratings-text%2522%29%253B%250Aconst%2520colorStars%2520%253D%2520stars%253B%250Astars.forEach%28star%2520%253D%253E%257B%250A%2520%2520%2520%2520star.addEventListener%28%2522click%2522%252C%28%29%253D%253E%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520let%2520starId%2520%253D%2520star.id%253B%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520let%2520starTitle%2520%253D%2520star.title%253B%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520getRatingsText%28starId%252CstarTitle%29%253B%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520colorStars.forEach%28colorStar%253D%253E%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520colorStar.style.color%253D%2522grey%2522%253B%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%257D%29%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520for%28let%2520i%253D0%253B%2520i%253C%253DstarId-1%253Bi%252B%252B%29%257B%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520colorStars%255Bi%255D.style.color%253D%2522gold%2522%253B%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%257D%250A%2520%2520%2520%2520%257D%29%2520%250A%257D%29%250A%2520%2520%2520%250Afunction%2520getRatingsText%28starId%252CstarTitle%29%257B%2520%2520%250A%2520%2520%2520%2520ratingsText.innerText%253D%2560%2524%257BstarTitle%257D%2560%253B%250A%2520%2520%2520%2520if%28starId%253C3%29%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520ratingsText.style.color%253D%2522red%2522%253B%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%257D%250A%2520%2520%2520%2520else%2520if%28starId%253D%253D3%29%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520ratingsText.style.color%253D%2522orange%2522%253B%2520%2520%250A%2520%2520%2520%2520%257D%250A%2520%2520%2520%2520else%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520ratingsText.style.color%253D%2522green%2522%253B%2520%2520%2520%250A%2520%2520%2520%2520%257D%250A%257D"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <hr />
+        <!-- Navigation Component -->
+        <h2 id="navigation">Navigation Component</h2>
+        <p class="mg-y-sm para-sm">
+          Navigation bar is used to navigate through the web apps or websites
+          and their pages.
+        </p>
+        <div class="demo-container pd-sm">
+          <nav class="nav-class">
+            <div class="nav-brand fs-md"><a href="#">MyShop</a></div>
+            <div class="search-field">
+              <i class="material-icons" id="search-icon">search</i>
+              <input
+                type="text"
+                name="search-bar"
+                id="search-bar"
+                placeholder="Search"
+              />
+            </div>
+
+            <ul class="navbar-pills align-center fw-bold">
+              <li class="mg-x-sm">
+                <a href="">
+                  <i class="material-icons mg-left-sm">account_circle</i>
+                  Profile</a
+                >
+              </li>
+              <li class="mg-x-sm">
+                <a href="">
+                  <i class="material-icons mg-left-sm">favorite_border</i>
+                  Wishlist
+                </a>
+              </li>
+              <li class="mg-x-sm">
+                <a href="">
+                  <i class="material-icons mg-left-sm" id="shop-cart">
+                    shopping_cart </i
+                  >My Cart
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="demo-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28140%2C230%2C195%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=320&ds=true&dsyoff=18px&dsblur=68px&wc=true&wa=false&pv=14px&ph=21px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=136%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522nav-class%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522nav-brand%2520fs-md%2522%253E%253Ca%2520href%253D%2522%2523%2522%253EMyShop%253C%252Fa%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522search-field%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2522%2520id%253D%2522search-icon%2522%253Esearch%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520name%253D%2522search-bar%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522search-bar%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Search%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cul%2520class%253D%2522navbar-pills%2520align-center%2520fw-bold%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522mg-x-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520mg-left-sm%2522%253Eaccount_circle%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Profile%253C%252Fa%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522mg-x-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520mg-left-sm%2522%253Efavorite_border%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Wishlist%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522mg-x-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520mg-left-sm%2522%2520id%253D%2522shop-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520shopping_cart%2520%253C%252Fi%250A%2520%2520%2520%2520%2520%2520%2520%2520%253EMy%2520Cart%250A%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fnav%253E%250A"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <hr />
+        <!-- Grid Component -->
+        <h2 id="grid">Grid Component</h2>
+        <p class="mg-y-sm para-sm">
+          CSS Grid is a powerful tool that allows for two-dimensional layouts to
+          be created on the web.
+        </p>
+        <h3>Grid 2 Column Layout</h3>
+        <div class="demo-container pd-sm">
+          <div class="grid-col-2 border-black-1px">
+            <div class="grid-item img-responsive">
+              <img src="https://picsum.photos/200/200" />
+            </div>
+            <div class="grid-item fs-md">
+              <div>
+                <h3>My Journey of life</h3>
+                <p class="fs-sm grid-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
+                  facere!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3>Grid 3 Column Layout</h3>
+        <div class="demo-container pd-sm">
+          <div class="grid-col-3 border-black-1px">
+            <div class="grid-item">
+              <img src="https://picsum.photos/200/200" />
+            </div>
+            <div class="grid-item fs-md">
+              <div>
+                <h3>Grid 3 Column Layout</h3>
+                <p class="fs-sm grid-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
+                  facere!
+                </p>
+              </div>
+            </div>
+            <div class="grid-item">
+              <img src="https://picsum.photos/200/200" />
+            </div>
+          </div>
+        </div>
+        <div class="demo-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28140%2C230%2C195%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=320&ds=true&dsyoff=18px&dsblur=68px&wc=true&wa=false&pv=14px&ph=21px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=136%25&si=false&es=2x&wm=false&code=%253C%21--%2520Grid%25202%2520Column%2520Layout%2520--%253E%250A%253Cdiv%2520class%253D%2522grid-col-2%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2520img-responsive%2522%253E%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%252F200%2522%252F%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2520fs-md%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520%253E%2520%250A%2520%2520%2520%2520%253Ch3%253EMy%2520Journey%2520of%2520life%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522fs-sm%2520grid-text%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Sint%252C%2520facere%21%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%21--%2520Grid%25203%2520Column%2520Layout%2520--%253E%250A%253Cdiv%2520class%253D%2522grid-col-3%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%252F200%2522%252F%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2520fs-md%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%2520%250A%2520%2520%2520%2520%253Ch3%253EGrid%25203%2520Column%2520Layout%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522fs-sm%2520grid-text%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Sint%252C%2520facere%21%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%252F200%2522%252F%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
             sandbox="allow-scripts allow-same-origin"
           >
           </iframe>

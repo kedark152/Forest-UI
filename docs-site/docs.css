@@ -18,7 +18,7 @@ nav{
     align-items: center;
     background-color: var(--white);
     padding: 1rem 0.75rem;
-    border-bottom: 2px solid var(--primary) ;
+    box-shadow: var(--box-shadow-primary);
     font-family: 'Acme', sans-serif;
     position: relative;
     top: 0;

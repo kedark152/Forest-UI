@@ -1,0 +1,29 @@
+.grid-col-2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.grid-col-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-item{
+    width: 200px;
+}
+.grid-text{
+    word-break: break-word;
+}
+
+.border-black-1px{
+    border: 1px solid black;
+}
+
+
+@media screen and (max-width: 500px){
+    .grid-col-2, .grid-col-3{
+        grid-template-columns: 1fr;
+    }
+}
+
+
