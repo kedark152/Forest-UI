@@ -3,192 +3,180 @@
 @import url(../stylesheets/main.css);
 @import url(../stylesheets/layout/scrollbar.css);
 
-html{
-    font-family: var(--lato-font);
-    scroll-behavior: smooth;
-   }
-  
+html {
+  font-family: var(--lato-font);
+  scroll-behavior: smooth;
+}
+
 /* Nav bar CSS */
-nav a{
-    text-decoration: none;
+nav a {
+  text-decoration: none;
 }
 
-nav{
-    display: flex;
-    align-items: center;
-    background-color: var(--white);
-    padding: 1rem 0.75rem;
-    box-shadow: var(--box-shadow-primary);
-    font-family: 'Acme', sans-serif;
-    position: relative;
-    top: 0;
-    width: 100%;
-
+nav {
+  display: flex;
+  align-items: center;
+  background-color: var(--white);
+  padding: 1rem 0.75rem;
+  box-shadow: var(--box-shadow-primary);
+  font-family: "Acme", sans-serif;
+  position: relative;
+  top: 0;
+  width: 100%;
 }
 
-.nav-brand a{
-    font-weight: var(--wgt-bold-dark);
-    color: var(--primary);
+.nav-brand a {
+  font-weight: var(--wgt-bold-dark);
+  color: var(--primary);
 }
 
-.nav-pills{
-    display: flex;
-    margin-left: auto;
-    flex: 0 1 12rem;
-    justify-content: space-around;
-    
+.nav-pills {
+  display: flex;
+  margin-left: auto;
+  flex: 0 1 12rem;
+  justify-content: space-around;
 }
 
-.nav-pills a{
-    color: var(--primary);
+.nav-pills a {
+  color: var(--primary);
 }
 
 /* Container Box in grey to display the components */
-.demo-container{
-    display: flex;
-    flex-wrap: wrap;
-    border: 2px solid var(--success);
-    border-radius: 5px;
-    margin: 1rem 2rem;
-    background-color: var(--lightest-green);
-    justify-content: center;
-    
+.demo-container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid var(--success);
+  border-radius: 5px;
+  margin: 1rem 2rem;
+  background-color: var(--lightest-green);
+  justify-content: center;
 }
 
- .demo-cards{
-     gap: 2rem;    /* Space between two cards */
+.demo-cards {
+  gap: 2rem; /* Space between two cards */
 }
 
-.divider{
-
-    border: 0;
-    height: 1px;
-    background-color: var(--secondary);
-    margin: 3rem 1rem;
-
+.divider {
+  border: 0;
+  height: 1px;
+  background-color: var(--secondary);
+  margin: 3rem 1rem;
 }
 
-.demo-code iframe{
-    width: 100%;
-    height: 15rem;
-    transform: scale(1);
-    overflow: hidden;
+.demo-code iframe {
+  width: 100%;
+  height: 15rem;
+  transform: scale(1);
+  overflow: hidden;
 }
 
 /* Aside Bar */
-.docs-sidebar{
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    width: 16rem;
-    padding: 0.8rem;
-    position: sticky;
-    top: 0px;
-    border-right: 2px solid var(--primary);
-    height: 100vh;
-    background-color: var(--primary);
-    color: var(--white);
-    overflow-y: auto;
-   
+.docs-sidebar {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 16rem;
+  padding: 0.8rem;
+  position: sticky;
+  top: 0px;
+  border-right: 2px solid var(--primary);
+  height: 100vh;
+  background-color: var(--primary);
+  color: var(--white);
+  overflow-y: auto;
 }
 
-.docs-sidebar a{
-    text-decoration: none;
-    color: var(--white);
+.docs-sidebar a {
+  text-decoration: none;
+  color: var(--white);
+  display: block;
 }
 
-.docs-sidebar li{
-    margin: 0.5rem;
-    font-size: 1.2rem;   
-    padding: 0.5rem 0.75rem;
-    border-radius: 2px;
+.docs-sidebar li {
+  margin: 0.5rem;
+  font-size: 1.2rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 2px;
 }
 
-.docs-sidebar li:hover{
-    background-color: var(--primary-hover);
+.docs-sidebar li:hover {
+  background-color: var(--primary-hover);
 }
 
-.docs-menu-bar{
-    display: none;
-    align-items: center;
-    justify-content: center;
-    padding: 0.5rem;
-    font-weight: bold;
-    font-size: 1rem;
+.docs-menu-bar {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
-#more-icon{
-    margin: 0.5rem;
-    padding: 0.5rem;
-    font-size: 1rem;
-    cursor: pointer;
+#more-icon {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
-.btn-top-arrow{
-    position: fixed;
-    bottom: 1rem;
-    right: 1rem;
-    border: 3px solid var(--success);
+.btn-top-arrow {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  border: 3px solid var(--success);
 }
 
 /* Footer */
-footer{
-    background-color: rgb(11, 122, 76);
-    color: var(--white);
+footer {
+  background-color: rgb(11, 122, 76);
+  color: var(--white);
 }
 
-.footer-links a{
-    color: var(--white);
-    
+.footer-links a {
+  color: var(--white);
 }
 
-.footer-links i{
-    cursor: pointer;
+.footer-links i {
+  cursor: pointer;
 }
-
-
 
 /* Media Queries */
-@media screen and (max-width: 800px){
-    .docs-body{
-        flex-direction: column;
-    }
-    .docs-sidebar{
-        display: none;
-        flex-direction: column;
-        width: 100vw;
-        align-items:flex-start;
-        position: static;
-       
-    }
-    .docs-menu-bar{
-        display: flex;
-    }
-    .docs-components{
-        position:static;
-        width: 100vw;  
-    }
-    /* Card Horizontal */
-   .card-horizontal{
-       width: 100%;
-   }
-   .card-horizontal .btn{
+@media screen and (max-width: 800px) {
+  .docs-body {
+    flex-direction: column;
+  }
+  .docs-sidebar {
+    display: none;
+    flex-direction: column;
+    width: 100vw;
+    align-items: flex-start;
+    position: static;
+  }
+  .docs-menu-bar {
+    display: flex;
+  }
+  .docs-components {
+    position: static;
+    width: 100vw;
+  }
+  /* Card Horizontal */
+  .card-horizontal {
+    width: 100%;
+  }
+  .card-horizontal .btn {
     margin-top: 0.5rem;
     justify-content: flex-start;
     width: 7rem;
-   }
-   
+  }
 }
 
-@media screen and (max-width: 350px){
-    .form-container{
-        width: 100%;
-    }
-    .form-field input, .form-field select{
-        padding: 0.2rem;
-        font-size: 0.5rem;
-
-    }
+@media screen and (max-width: 350px) {
+  .form-container {
+    width: 100%;
+  }
+  .form-field input,
+  .form-field select {
+    padding: 0.2rem;
+    font-size: 0.5rem;
+  }
 }
-
-
